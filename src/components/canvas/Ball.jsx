@@ -45,7 +45,12 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls
+          enableZoom={false}
+          autoRotate
+          autoRotateSpeed={20}
+
+        />
         <Ball imgUrl={icon} />
       </Suspense>
 
