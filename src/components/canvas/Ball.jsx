@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, Html } from "@react-three/fiber";
 import {
   Decal,
   Float,
@@ -38,24 +38,40 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  const [texture] = useTexture([icon]);
+
   return (
-    <Canvas
-      frameloop='demand'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          autoRotate
-          autoRotateSpeed={20}
+    <>
+      <Canvas
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          zIndex: -1,
+          width: "100vw",
+          height: "100vh",
+        }}
+      >
+        <mesh>
+          <planeBufferGeometry args={[10, 10]} />
+          <meshBasicMaterial map={texture} />
+        </mesh>
+      </Canvas>
+      <Html>
+        <Canvas
+          frameloop='demand'
+          dpr={[1, 2]}
+          gl={{ preserveDrawingBuffer: true }}
+        >
+          <Suspense fallback={<CanvasLoader />}>
+            <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={20} />
+            <Ball imgUrl={icon} />
+          </Suspense>
 
-        />
-        <Ball imgUrl={icon} />
-      </Suspense>
-
-      <Preload all />
-    </Canvas>
+          <Preload all />
+        </Canvas>
+      </Html>
+    </>
   );
 };
 
