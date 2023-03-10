@@ -33,7 +33,7 @@ import tripguide from "./tripguide.png";
 import movie from "./movie.png"
 import shop from "./shop.png"
 import youtube from "./youtube.png"
-
+import jeff from "./jeff.jpg"
 export {
   logo,
   backend,
@@ -66,5 +66,6 @@ export {
   code1,
   movie,
   shop,
-  youtube
+  youtube,
+  jeff
 };
