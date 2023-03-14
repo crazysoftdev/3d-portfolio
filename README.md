@@ -10,7 +10,7 @@
 
 </div>
 👋 To try out click here
-<a href="jeffjiang.vercel.app" > DEMO
+<a href="https://jeffjiang.vercel.app/" > DEMO
 
 
 
