@@ -4,8 +4,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/jeffjiang13/movie-app">
-    <img src="src/assets/logo3.png" alt="cryptoket" width="235" height="150">
+  <a href="https://github.com/jeffjiang13/3d-portfolio">
+    <img src="src/assets/logo3.png" alt="3d" width="235" height="150">
   </a>
 
 </div>
