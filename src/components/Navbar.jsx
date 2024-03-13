@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import resume from "/src/jeff_jiang.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -49,7 +50,28 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className="list-none hidden sm:flex flex-row items-center gap-10">
+        <a href={resume} download="jeff_jiang.pdf">
+            <button
+              className={`${
+                active === Link.title ? "abhishek" : "abhishek-btn"
+              }   font-medium cursor-pointer border-[1px]`}
+              onClick={() => setActive(Link.title)}
+            >
+              <span className="flex items-center">
+                {" "}
+                <svg
+                  class="fill-current w-4 h-4 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>{" "}
+                Download CV
+              </span>
+
+            </button>
+          </a>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
