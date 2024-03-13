@@ -27,8 +27,8 @@ import {
   movie,
   shop,
   youtube,
+  python,
 } from "../assets";
-
 export const navLinks = [
   {
     id: "about",
@@ -101,8 +101,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "python",
+    icon: python,
   },
   {
     name: "git",
