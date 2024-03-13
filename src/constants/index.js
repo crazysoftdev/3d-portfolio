@@ -150,23 +150,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fullstack Developer",
-    company_name: "SHOPPING APP",
-    icon: code1,
-    iconBg: "#383E56",
-    date: "2022",
-    points: [
-      "Developed and maintained an e-commerce website using Gatsby, React Helmet, CSS Modules, and Prettier.",
-      "Implemented user authentication, product listings, and transaction capabilities for the website using Simple JWT to ensure secure access.",
-      "Deployed the site on Netlify, using the Netlify CLI to initialize the project and set up continuous deployment",
-    ],
-  },
-  {
-    title: "Fullstack Developer",
-    company_name: "CAMPSIGHT APP",
+    title: "Full-Stack Developer",
+    company_name: "Hack Reactor",
     icon: code1,
     iconBg: "#E6DEDD",
-    date: "2022",
+    date: "2021",
     points: [
       "Successfully led a team of engineers in the development and deployment of a high-performance API web application within a tight six-week timeframe.",
       "Designed and implemented a scalable backend service utilizing MongoDB and FastAPI, following a test-driven development approach, ensuring a stable and well-tested codebase.",
@@ -174,36 +162,60 @@ const experiences = [
     ],
   },
   {
-    title: "Fulstack Developer",
-    company_name: "YOUTUBE CLONE",
+    title: "Full-Stack Developer",
+    company_name: "ChiqueChickShop",
     icon: code1,
     iconBg: "#383E56",
-    date: "2023",
+    date: "2022",
     points: [
-      "Developed a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app.",
-      "Used RAPID API to access various endpoints to retrieve data such as suggested videos, search video details, channel details, and channel videos.",
-      "Ensured cross-browser and cross-platform compatibility.",
+      "Developed ChiqueChickShop, a responsive e-commerce platform.",
+      "Enhanced user experience with intuitive navigation features.",
+      "Implemented secure payment processing for online transactions.",
     ],
   },
   {
-    title: "Fullstack Developer",
-    company_name: "MOVIE APP",
+    title: "Full-Stack Developer",
+    company_name: "Madamcoon",
     icon: code1,
     iconBg: "#E6DEDD",
     date: "2023",
     points: [
-      "Developed and maintained an application using React.js, Material UI, Alan AI and other related technologies.",
-      "Enhanced user experience by implementing secure user authentication, providing a sleek dark mode option, and allowing users to sort movies by categories or genres. Users can now access movie and actor details and easily add movies to their favorites or watchlist, in addition to other convenient functionalities.",
-      "Integrated voice assistant to application.",
+      "Spearheaded the revamp of Madamcoon, focusing on responsive design and user experience improvements.",
+      "Integrated CMS and implemented SEO strategies for enhanced online visibility.",
+      "Optimized the website for increased engagement and performance metrics.",
     ],
   },
+  // {
+  //   title: "Fulstack Developer",
+  //   company_name: "YOUTUBE CLONE",
+  //   icon: code1,
+  //   iconBg: "#383E56",
+  //   date: "2023",
+  //   points: [
+  //     "Developed a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app.",
+  //     "Used RAPID API to access various endpoints to retrieve data such as suggested videos, search video details, channel details, and channel videos.",
+  //     "Ensured cross-browser and cross-platform compatibility.",
+  //   ],
+  // },
+  // {
+  //   title: "Fullstack Developer",
+  //   company_name: "MOVIE APP",
+  //   icon: code1,
+  //   iconBg: "#E6DEDD",
+  //   date: "2023",
+  //   points: [
+  //     "Developed and maintained an application using React.js, Material UI, Alan AI and other related technologies.",
+  //     "Enhanced user experience by implementing secure user authentication, providing a sleek dark mode option, and allowing users to sort movies by categories or genres. Users can now access movie and actor details and easily add movies to their favorites or watchlist, in addition to other convenient functionalities.",
+  //     "Integrated voice assistant to application.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
       "I can't say enough good things about Jeff. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Jeff is your guy.",
-    name: "Sara Lee",
+    name: "Halley Bennett",
     designation: "",
     company: "Hack Reactor",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -211,7 +223,7 @@ const testimonials = [
   {
     testimonial:
       "Jeff is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
-    name: "Chris Brown",
+    name: "Yishak Wesego",
     designation: "",
     company: "Hack Reactor",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -219,7 +231,7 @@ const testimonials = [
   {
     testimonial:
       "I've worked with a lot of engineers over the years, and Jeff is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
-    name: "Lisa Wang",
+    name: "Megan Stewart",
     designation: "",
     company: "Hack Reactor",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
