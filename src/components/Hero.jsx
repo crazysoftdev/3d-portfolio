@@ -3,8 +3,27 @@ import { motion } from "framer-motion"
 
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Hero = () => {
+  const [text, count] = useTypewriter({
+    words: [
+      "<CoderWithAPassion />",
+      "TechInnovator & ProblemSolver",
+      "FitnessEnthusiast",
+      "GamingConnoisseur",
+      "EternalLearner & TechExplorer",
+      "CraftingElegantSolutions",
+      "InCodeWeTrust",
+      "PushingPixelsAndDeadlifts",
+      "FromJavaScriptToJavaSips",
+      "BuildingTheWebOneLineAtATime",
+      "UnitingTechAndWellness"
+    ],
+    loop: true,
+    delaySpeed: 1000,
+  });
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -19,14 +38,16 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
             <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-              Jeff
+              Jeff Jiang
             </span>
           </h1>
 
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop websites, user <br className="sm:block hidden" />{" "}
-            interfaces and web applications
-          </p>
+          <p
+                className={`${styles.heroSubText} mt-2 text-white-100 max-w-lg`}
+              >
+                {text}
+                <Cursor cursorColor="#915eff" />
+              </p>
         </div>
       </div>
 

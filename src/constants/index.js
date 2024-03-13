@@ -28,6 +28,12 @@ import {
   shop,
   youtube,
   python,
+  django,
+  postgres,
+  sql,
+  next,
+  vue,
+
 } from "../assets";
 export const navLinks = [
   {
@@ -115,6 +121,30 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "django",
+    icon: django,
+  },
+  {
+    name: "postgres",
+    icon: postgres,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "vue",
+    icon: vue,
   },
 ];
 
