@@ -99,6 +99,27 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <a href={resume} download="jeff_jiang.pdf">
+            <button
+              className={`${
+                active === Link.title ? "abhishek" : "abhishek-btn"
+              }   font-medium cursor-pointer border-[1px]`}
+              onClick={() => setActive(Link.title)}
+            >
+              <span className="flex items-center">
+                {" "}
+                <svg
+                  class="fill-current w-4 h-4 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>{" "}
+                Download CV
+              </span>
+
+            </button>
+          </a>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
