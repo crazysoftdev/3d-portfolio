@@ -33,6 +33,10 @@ import {
   sql,
   next,
   vue,
+  liveLink,
+  portfolio15,
+  portfolio16
+
 
 } from "../assets";
 export const navLinks = [
@@ -240,6 +244,50 @@ const testimonials = [
 
 const projects = [
   {
+    name: "ChiqueChickShop",
+    description:
+      "Engineered the ChiqueChickShop, a fully responsive e-commerce platform, from the ground up. This project entailed designing an inviting online shopping experience complete with intuitive navigation and streamlined user flows. Focused on integrating secure payment processing systems to ensure transactional safety. Implemented best practices in web development to enhance site responsiveness across all devices. Due to client confidentiality, project specifics and GitHub source are kept private.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio16,
+    source_code_link: "https://github.com/jeffjiang13",
+    liveUrl: "https://chiquechickshop.com/"
+  },
+  {
+    name: "Madamcoon Maine Coon Cattery NYC",
+    description:
+      "Led the comprehensive development of the Madamcoon website, from concept to launch, focusing on crafting a responsive design that adapts seamlessly across devices. Enhanced user interaction and experience by implementing a user-friendly interface and streamlined navigation. Integrated robust content management systems for easy content updates and management. Employed advanced SEO strategies to maximize online visibility and search rankings. Project details are confidential with GitHub source kept private for client security.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio15,
+    source_code_link: "https://github.com/jeffjiang13",
+    liveUrl: "https://madamcoon.com/"
+  },
+  {
     name: "Movie App",
     description:
       "This app is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple with help of a AI voice chatbot. Also provides ratings of movies. Tech stack: JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.",
@@ -259,6 +307,7 @@ const projects = [
     ],
     image: movie,
     source_code_link: "https://github.com/jeffjiang13/movie-app",
+    liveUrl: "https://jj-movie-app.netlify.app/",
   },
   {
     name: "Ecommerce App",
@@ -280,6 +329,7 @@ const projects = [
     ],
     image: shop,
     source_code_link: "https://github.com/jeffjiang13/ecommerce_sanity",
+    liveUrl: "https://jj-ecomstore.vercel.app/",
   },
   {
     name: "YouTube Clone",
@@ -301,6 +351,7 @@ const projects = [
     ],
     image: youtube,
     source_code_link: "https://github.com/jeffjiang13/youtube-clone",
+    liveUrl: "https://jj-youtube-clone.netlify.app/",
   },
 
 

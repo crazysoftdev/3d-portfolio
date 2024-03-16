@@ -21,6 +21,7 @@
     "react-tilt": "^1.0.2",
     "react-simple-typewriter": "^5.0.1",
     "react-icons": "^4.11.0",
+    "react-ts-typewriter": "^0.1.8-b",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.150.1"
   },
