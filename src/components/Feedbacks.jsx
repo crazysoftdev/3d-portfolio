@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const FeedbackCard = ({
   index,
@@ -47,12 +47,12 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <>
-      <div
+      {/* <div
         className="relative w-full h-screen mx-auto"
         style={{ bottom: "15rem" }}
       >
         <ComputersCanvas />
-      </div>
+      </div> */}
       <div className={` bg-black-100 rounded-[20px]`}>
         <div
           className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
