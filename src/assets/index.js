@@ -41,6 +41,7 @@ import jeff from "./jeff.jpg"
 import liveLink from "./liveLink.png"
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
+import portfolio17 from "./portfolio17.png"
 
 export {
   logo,
@@ -84,6 +85,7 @@ export {
   vue,
   liveLink,
   portfolio15,
-  portfolio16
+  portfolio16,
+  portfolio17,
 
 };

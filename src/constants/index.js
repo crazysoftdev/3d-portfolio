@@ -35,7 +35,9 @@ import {
   vue,
   liveLink,
   portfolio15,
-  portfolio16
+  portfolio16,
+  portfolio17,
+
 
 
 } from "../assets";
@@ -243,6 +245,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TailorTech",
+    description:
+      "This comprehensive SaaS platform leverages the latest technologies including Next.js 14, Bun, Stripe Connect, Prisma, MySQL, and Tailwind to offer a robust solution for building websites, managing projects, and handling financial transactions seamlessly. Designed for agencies, freelancers, and businesses, our platform simplifies the digital landscape through an intuitive interface and powerful features.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bun",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio17,
+    source_code_link: "https://github.com/jeffjiang13/tailortech",
+    liveUrl: "https://jj-tailortech.vercel.app/"
+  },
   {
     name: "ChiqueChickShop",
     description:
