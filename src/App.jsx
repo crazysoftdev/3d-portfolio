@@ -32,9 +32,6 @@ const App = () => {
         </div>
         <div className="relative z-0">
           <Tech />
-          <StarsCanvas />
-        </div>
-        <div className="relative z-0">
           <Works />
           <StarsCanvas />
         </div>
