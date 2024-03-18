@@ -58,7 +58,7 @@ const Navbar = () => {
               }   font-medium cursor-pointer border-[1px]`}
               onClick={() => setActive(Link.title)}
             >
-              <span className="flex items-center">
+              <span className="flex items-center animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
                 {" "}
                 <svg
                   class="fill-current w-4 h-4 mr-2"
@@ -106,7 +106,7 @@ const Navbar = () => {
               }   font-medium cursor-pointer border-[1px]`}
               onClick={() => setActive(Link.title)}
             >
-              <span className="flex items-center">
+              <span className="flex items-center animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
                 {" "}
                 <svg
                   class="fill-current w-4 h-4 mr-2"

@@ -17,12 +17,11 @@ const Footer = () => {
         <Typewriter
           text={[
             "Thank's for visiting!",
-            "Wait!",
             "download my resume!",
             "<Love to Code/>",
           ]}
           loop
-          speed={100}
+          speed={80}
           cursor={false}
         />
       </div>
