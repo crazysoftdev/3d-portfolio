@@ -17,7 +17,8 @@ const Footer = () => {
         <Typewriter
           text={[
             "Thank's for visiting!",
-            "Wait! download my resume!!",
+            "Wait!",
+            "download my resume!",
             "<Love to Code/>",
           ]}
           loop
