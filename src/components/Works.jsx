@@ -19,7 +19,7 @@ const ProjectCard = ({
   liveUrl,
 }) => {
   return (
-    <motion.div variants={fadeIn()}>
+    // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -79,25 +79,25 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    // </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}> */}
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2
           className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
         >
           Projects.
         </h2>
-      </motion.div>
+      {/* </motion.div> */}
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <p
+          variants={fadeIn("", "", 1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
@@ -105,7 +105,7 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
