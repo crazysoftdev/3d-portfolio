@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import resume from "/src/jeff_jiang.pdf";
-
+import { LOGO2 } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -37,15 +37,15 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
-          className='flex items-center gap-2'
+          className='flex items-center'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-24 h-24 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Full-Stack Developer &nbsp;
+          <img src={LOGO2} alt='logo' className='w-24 h-24 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            FullStack Developer &nbsp;
             {/* <span className='sm:block hidden'> | Portfolio</span> */}
           </p>
         </Link>

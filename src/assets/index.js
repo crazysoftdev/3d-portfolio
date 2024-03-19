@@ -42,6 +42,7 @@ import liveLink from "./liveLink.png"
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
 import portfolio17 from "./portfolio17.png"
+import LOGO2 from "./logo2.webp";
 
 export {
   logo,
@@ -87,5 +88,5 @@ export {
   portfolio15,
   portfolio16,
   portfolio17,
-
+  LOGO2,
 };
