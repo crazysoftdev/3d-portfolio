@@ -6,7 +6,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 // import { ComputersCanvas } from "./canvas";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { imageProjects } from "../constants";
 const FeedbackCard = ({
   index,
   testimonial,
@@ -43,6 +46,40 @@ const FeedbackCard = ({
     </div>
   </motion.div>
 );
+const ImageCarousel = () => {
+  // Settings for the slider
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
+  return (
+    <div className="carousel-container">
+      <p className={styles.sectionSubText}>Check it out</p>
+      <h2
+        className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
+      >
+        Preview.
+      </h2>
+      <Slider {...settings}>
+        {imageProjects.map((project) => (
+          <div key={project.id} className="carousel-slide">
+            <img className="" src={project.url} alt={project.title} />
+            <h3 className="text-center mt-5 font-bold text-lg">
+              {project.title}
+            </h3>
+            <p>{project.description}</p>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};
 
 const Feedbacks = () => {
   return (
@@ -57,7 +94,7 @@ const Feedbacks = () => {
         <div
           className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
         >
-          <motion.div variants={textVariant()}>
+          {/* <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>What others say</p>
             <h2
               className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
@@ -73,7 +110,8 @@ const Feedbacks = () => {
               index={index}
               {...testimonial}
             />
-          ))}
+          ))} */}
+          <ImageCarousel />
         </div>
       </div>
     </>

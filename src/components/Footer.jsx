@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import { LOGO2 } from "../assets";
 import Typewriter from "react-ts-typewriter";

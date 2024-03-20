@@ -243,6 +243,45 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+const imageProjects = [
+  {
+    id: 1,
+    url: portfolio15,
+    title: 'Madamcoon Maine Coon Cattery NYC',
+    description: '',
+  },
+  {
+    id: 2,
+    url: portfolio16,
+    title: 'ChiqueChickShop',
+    description: '',
+  },
+  {
+    id: 2,
+    url: portfolio17,
+    title: 'TailorTech',
+    description: '',
+  },
+  {
+    id: 2,
+    url: shop,
+    title: 'E-commerce platform',
+    description: '',
+  },
+  {
+    id: 2,
+    url: movie,
+    title: 'Movie app',
+    description: '',
+  },
+  {
+    id: 2,
+    url: youtube,
+    title: 'Youtube clone',
+    description: '',
+  },
+  // Add more projects as needed
+];
 
 const projects = [
   {
@@ -381,4 +420,4 @@ const projects = [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, imageProjects };
