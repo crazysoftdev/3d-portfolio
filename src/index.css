@@ -515,7 +515,8 @@
 }
 .carousel-slide img {
   width: 100%; /* Make images fully responsive */
-  max-height: 460px; /* Adjust based on your preference */
+  min-height: 280px; /* Adjust based on your preference */
+  max-height: 480px; /* Adjust based on your preference */
   object-fit: cover; /* This will ensure the aspect ratio is maintained without stretching the image */
   border-radius: 8px; /* Optional: Adds rounded corners to your images */
 }
