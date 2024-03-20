@@ -62,7 +62,7 @@ const Feedbacks = () => {
             <h2
               className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
             >
-              Testimonials..
+              Testimonials.
             </h2>
           </motion.div>
         </div>
