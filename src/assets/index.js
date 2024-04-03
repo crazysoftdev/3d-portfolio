@@ -43,6 +43,9 @@ import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
 import portfolio17 from "./portfolio17.png"
 import LOGO2 from "./LOGO2.webp";
+import tiktok from "./tiktok.png";
+import ig from "./ig.png";
+import linktree from "./linktree.png";
 
 export {
   logo,
@@ -89,4 +92,7 @@ export {
   portfolio16,
   portfolio17,
   LOGO2,
+  tiktok,
+  ig,
+  linktree,
 };

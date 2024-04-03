@@ -37,6 +37,9 @@ import {
   portfolio15,
   portfolio16,
   portfolio17,
+  linktree,
+  tiktok,
+  ig,
 
 
 
@@ -246,44 +249,132 @@ const testimonials = [
 const imageProjects = [
   {
     id: 1,
-    url: portfolio15,
+    image: portfolio15,
+    url: "https://madamcoon.com/",
     title: 'Madamcoon Maine Coon Cattery NYC',
     description: '',
   },
   {
     id: 2,
-    url: portfolio16,
+    image: portfolio16,
+    url: "https://chiquechickshop.com/",
     title: 'ChiqueChickShop',
     description: '',
   },
   {
-    id: 2,
-    url: portfolio17,
+    id: 3,
+    image: portfolio17,
+    url: 'https://jj-tailortech.vercel.app/',
     title: 'TailorTech',
     description: '',
   },
   {
-    id: 2,
-    url: shop,
+    id: 4,
+    image: shop,
+    url: 'https://jj-ecomstore.vercel.app/',
     title: 'E-commerce platform',
     description: '',
   },
   {
-    id: 2,
-    url: movie,
+    id: 5,
+    image: movie,
+    url: 'https://jj-movie-app.netlify.app/',
     title: 'Movie app',
     description: '',
   },
   {
-    id: 2,
-    url: youtube,
+    id: 6,
+    image: youtube,
+    url: 'https://jj-youtube-clone.netlify.app/',
     title: 'Youtube clone',
     description: '',
   },
-  // Add more projects as needed
+  {
+    id: 7,
+    image: ig,
+    url: 'https://jj-ig.vercel.app/',
+    title: 'Instagram clone',
+    description: '',
+  },  {
+    id: 8,
+    image: tiktok,
+    url: "https://jj-tiktok.vercel.app/",
+    title: 'TikTok clone',
+    description: '',
+  },  {
+    id: 9,
+    image: linktree,
+    url: 'https://jj-linktree.vercel.app/',
+    title: 'LinkTree clone',
+    description: '',
+  },
 ];
 
 const projects = [
+  {
+    name: "TailorTech",
+    description:
+      "This comprehensive SaaS platform leverages the latest technologies including Next.js 14, Bun, Stripe Connect, Prisma, MySQL, and Tailwind to offer a robust solution for building websites, managing projects, and handling financial transactions seamlessly. Designed for agencies, freelancers, and businesses, our platform simplifies the digital landscape through an intuitive interface and powerful features.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: linktree,
+    source_code_link: "https://github.com/jeffjiang13/LinkTree",
+    liveUrl: "https://jj-linktree.vercel.app/"
+  },  {
+    name: "Instagram Clone,",
+    description:
+      "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
+    tags: [
+      {
+        name: "Vite.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ig,
+    source_code_link: "https://github.com/jeffjiang13/IG-2.0",
+    liveUrl: "https://jj-ig.vercel.app/"
+  },  {
+    name: "TikTok Clone",
+    description:
+      "Explore the modern web with our TikTok Clone Application! This project encompasses a full suite of features including Google Authentication, video uploads, publishing, sharing, commenting, liking, category filtering, advanced search functionalities, profile pages, suggested accounts, and a custom responsive design.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tiktok,
+    source_code_link: "https://github.com/jeffjiang13/tiktok",
+    liveUrl: "https://jj-tiktok.vercel.app/"
+  },
   {
     name: "TailorTech",
     description:
