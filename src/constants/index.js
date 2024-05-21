@@ -304,7 +304,7 @@ const imageProjects = [
   },  {
     id: 9,
     image: linktree,
-    url: 'https://jj-linktree.vercel.app/',
+    url: 'https://jj-linktri.vercel.app/',
     title: 'LinkTree clone',
     description: '',
   },
@@ -314,7 +314,7 @@ const projects = [
   {
     name: "TailorTech",
     description:
-      "This comprehensive SaaS platform leverages the latest technologies including Next.js 14, Bun, Stripe Connect, Prisma, MySQL, and Tailwind to offer a robust solution for building websites, managing projects, and handling financial transactions seamlessly. Designed for agencies, freelancers, and businesses, our platform simplifies the digital landscape through an intuitive interface and powerful features.",
+      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
     tags: [
       {
         name: "Next.js",
@@ -331,7 +331,7 @@ const projects = [
     ],
     image: linktree,
     source_code_link: "https://github.com/jeffjiang13/LinkTree",
-    liveUrl: "https://jj-linktree.vercel.app/"
+    liveUrl: "https://jj-linktri.vercel.app/"
   },  {
     name: "Instagram Clone,",
     description:
