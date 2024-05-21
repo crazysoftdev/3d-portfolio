@@ -312,7 +312,7 @@ const imageProjects = [
 
 const projects = [
   {
-    name: "TailorTech",
+    name: "LinkTri",
     description:
       "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
     tags: [
