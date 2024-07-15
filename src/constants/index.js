@@ -40,7 +40,11 @@ import {
   linktree,
   tiktok,
   ig,
-
+  beeclone,
+  smartrep,
+  matrixai,
+  zapflow,
+  notable,
 
 
 } from "../assets";
@@ -251,66 +255,213 @@ const imageProjects = [
     id: 1,
     image: portfolio15,
     url: "https://madamcoon.com/",
-    title: 'Madamcoon Maine Coon Cattery NYC',
-    description: '',
+    title: "Madamcoon Maine Coon Cattery NYC",
+    description: "",
   },
   {
     id: 2,
     image: portfolio16,
     url: "https://chiquechickshop.com/",
-    title: 'ChiqueChickShop',
-    description: '',
+    title: "ChiqueChickShop",
+    description: "",
   },
   {
     id: 3,
     image: portfolio17,
-    url: 'https://jj-tailortech.vercel.app/',
-    title: 'TailorTech',
-    description: '',
+    url: "https://jj-tailortech.vercel.app/",
+    title: "TailorTech",
+    description: "",
   },
   {
     id: 4,
     image: shop,
-    url: 'https://jj-ecomstore.vercel.app/',
-    title: 'E-commerce platform',
-    description: '',
+    url: "https://jj-ecomstore.vercel.app/",
+    title: "E-commerce platform",
+    description: "",
   },
   {
     id: 5,
     image: movie,
-    url: 'https://jj-movie-app.netlify.app/',
-    title: 'Movie app',
-    description: '',
+    url: "https://jj-movie-app.netlify.app/",
+    title: "Movie app",
+    description: "",
   },
   {
     id: 6,
     image: youtube,
-    url: 'https://jj-youtube-clone.netlify.app/',
-    title: 'Youtube clone',
-    description: '',
+    url: "https://jj-youtube-clone.netlify.app/",
+    title: "Youtube clone",
+    description: "",
   },
   {
     id: 7,
     image: ig,
-    url: 'https://jj-ig.vercel.app/',
-    title: 'Instagram clone',
-    description: '',
-  },  {
+    url: "https://jj-ig.vercel.app/",
+    title: "Instagram clone",
+    description: "",
+  },
+  {
     id: 8,
     image: tiktok,
     url: "https://jj-tiktok.vercel.app/",
-    title: 'TikTok clone',
-    description: '',
-  },  {
+    title: "TikTok clone",
+    description: "",
+  },
+  {
     id: 9,
     image: linktree,
-    url: 'https://jj-linktri.vercel.app/',
-    title: 'LinkTree clone',
-    description: '',
+    url: "https://jj-linktri.vercel.app/",
+    title: "LinkTree clone",
+    description: "",
+  },
+  {
+    id: 10,
+    image: smartrep,
+    url: "https://jj-smartrep.vercel.app/",
+    title: "SmartRep AI",
+    description: "",
+  },
+  {
+    id: 11,
+    image: zapflow,
+    url: "https://jj-zapflow.vercel.app/",
+    title: "ZapFlow",
+    description: "",
+  },
+  {
+    id: 12,
+    image: matrixai,
+    url: "https://jj-matrix-ai.vercel.app/",
+    title: "Matrix AI",
+    description: "",
+  },
+  {
+    id: 13,
+    image: notable,
+    url: "https://jj-notable.up.railway.app/",
+    title: "Notable",
+    description: "",
+  },
+  {
+    id: 14,
+    image: beeclone,
+    url: "https://jj-newsletter.vercel.app/",
+    title: "Beeclone",
+    description: "",
   },
 ];
 
 const projects = [
+  {
+    name: "SmartRep AI",
+    description:
+      "SmartRep AI is an advanced AI chatbot designed to streamline customer interactions, book appointments, process payments, and manage leads. It seamlessly integrates with any website, offering a customizable interface and a suite of powerful features to enhance user experience and business operations.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Neon",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smartrep,
+    source_code_link: "https://github.com/jeffjiang13/smartrep-ai",
+    liveUrl: "https://jj-smartrep.vercel.app/",
+  },
+  {
+    name: "Notable",
+    description:
+      "Experience unparalleled team collaboration with Notable, a cutting-edge SaaS platform designed to enhance productivity dynamically. Built with Next.js 13 and adorned with the latest technologies like Stripe for secure payments, Drizzle ORM for efficient data management, Tailwind CSS for intuitive styling, Supabase for a scalable backend, and WebSockets for real-time interactions, Notable offers a modern workspace for teams and individuals to thrive in real time. Perfect for startups and large enterprises alike, Notable seamlessly integrates advanced collaboration tools into your daily operations, setting a new standard for what a collaborative platform can achieve.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: notable,
+    source_code_link: "https://github.com/jeffjiang13/notable",
+    liveUrl: "https://jj-notable.up.railway.app/",
+  },
+  {
+    name: "ZapFlow",
+    description:
+      "ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Neon",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zapflow,
+    source_code_link: "https://github.com/jeffjiang13/saas-automation",
+    liveUrl: "https://jj-zapflow.vercel.app/",
+  },
+  {
+    name: "Beeclone",
+    description:
+      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: beeclone,
+    source_code_link: "https://github.com/jeffjiang13/saas-newsletter",
+    liveUrl: "https://jj-newsletter.vercel.app/",
+  },
+  {
+    name: "Matrix AI",
+    description:
+      "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: matrixai,
+    source_code_link: "https://github.com/jeffjiang13/MatrixAI",
+    liveUrl: "https://jj-matrix-ai.vercel.app/",
+  },
   {
     name: "LinkTri",
     description:
@@ -331,8 +482,9 @@ const projects = [
     ],
     image: linktree,
     source_code_link: "https://github.com/jeffjiang13/LinkTree",
-    liveUrl: "https://jj-linktri.vercel.app/"
-  },  {
+    liveUrl: "https://jj-linktri.vercel.app/",
+  },
+  {
     name: "Instagram Clone,",
     description:
       "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
@@ -352,8 +504,9 @@ const projects = [
     ],
     image: ig,
     source_code_link: "https://github.com/jeffjiang13/IG-2.0",
-    liveUrl: "https://jj-ig.vercel.app/"
-  },  {
+    liveUrl: "https://jj-ig.vercel.app/",
+  },
+  {
     name: "TikTok Clone",
     description:
       "Explore the modern web with our TikTok Clone Application! This project encompasses a full suite of features including Google Authentication, video uploads, publishing, sharing, commenting, liking, category filtering, advanced search functionalities, profile pages, suggested accounts, and a custom responsive design.",
@@ -373,7 +526,7 @@ const projects = [
     ],
     image: tiktok,
     source_code_link: "https://github.com/jeffjiang13/tiktok",
-    liveUrl: "https://jj-tiktok.vercel.app/"
+    liveUrl: "https://jj-tiktok.vercel.app/",
   },
   {
     name: "TailorTech",
@@ -395,7 +548,7 @@ const projects = [
     ],
     image: portfolio17,
     source_code_link: "https://github.com/jeffjiang13/tailortech",
-    liveUrl: "https://jj-tailortech.vercel.app/"
+    liveUrl: "https://jj-tailortech.vercel.app/",
   },
   {
     name: "ChiqueChickShop",
@@ -417,7 +570,7 @@ const projects = [
     ],
     image: portfolio16,
     source_code_link: "https://github.com/jeffjiang13",
-    liveUrl: "https://chiquechickshop.com/"
+    liveUrl: "https://chiquechickshop.com/",
   },
   {
     name: "Madamcoon Maine Coon Cattery NYC",
@@ -439,7 +592,7 @@ const projects = [
     ],
     image: portfolio15,
     source_code_link: "https://github.com/jeffjiang13",
-    liveUrl: "https://madamcoon.com/"
+    liveUrl: "https://madamcoon.com/",
   },
   {
     name: "Movie App",
@@ -507,8 +660,13 @@ const projects = [
     source_code_link: "https://github.com/jeffjiang13/youtube-clone",
     liveUrl: "https://jj-youtube-clone.netlify.app/",
   },
-
-
 ];
 
-export { services, technologies, experiences, testimonials, projects, imageProjects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  imageProjects,
+};

@@ -46,6 +46,12 @@ import LOGO2 from "./LOGO2.webp";
 import tiktok from "./tiktok.png";
 import ig from "./ig.png";
 import linktree from "./linktree.png";
+import smartrep from "./smartrep.png";
+import matrixai from "./matrixai.png";
+import beeclone from "./beeclone.png";
+import notable from "./notable.png";
+import zapflow from "./zapflow.png";
+
 
 export {
   logo,
@@ -95,4 +101,9 @@ export {
   tiktok,
   ig,
   linktree,
+  smartrep,
+  matrixai,
+  beeclone,
+  notable,
+  zapflow,
 };
