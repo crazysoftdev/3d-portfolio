@@ -296,7 +296,7 @@ const imageProjects = [
   {
     id: 7,
     image: ig,
-    url: "https://jj-ig.vercel.app/",
+    url: "https://jj-ig.netlify.app/",
     title: "Instagram clone",
     description: "",
   },
@@ -504,7 +504,7 @@ const projects = [
     ],
     image: ig,
     source_code_link: "https://github.com/jeffjiang13/IG-2.0",
-    liveUrl: "https://jj-ig.vercel.app/",
+    liveUrl: "https://jj-ig.netlify.app/",
   },
   {
     name: "TikTok Clone",
