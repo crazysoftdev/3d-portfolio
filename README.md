@@ -1,7 +1,7 @@
 
 
 <div align="center">
-    <a href="https://github.com/jeffjiang13/3d-portfolio">
+    <a href="https://github.com/crazysoftdev/3d-portfolio">
         <img src="src/assets/logo3.png" alt="3D Portfolio Logo" width="235" height="150">
     </a>
 </div>
@@ -12,9 +12,9 @@
     <b>Explore the interactive 3D space that showcases my projects and skills. Built with the power of Three.js and React.js.</b>
 </p>
 
-<p align="center">
-    <a href="https://jeffjiang.vercel.app/"><strong>🚀 View Demo</strong></a>
-</p>
+<!-- <p align="center">
+    <a href="https://crazysoftdev.vercel.app/"><strong>🚀 View Demo</strong></a>
+</p> -->
 
 ## About The Project
 
@@ -48,7 +48,7 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/jeffjiang13/3d-portfolio.git
+git clone https://github.com/crazysoftdev/3d-portfolio.git
 ```
 2. Install NPM packages
 ```sh

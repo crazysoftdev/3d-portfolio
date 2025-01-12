@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import resume from "/src/jeff_jiang.pdf";
+import resume from "/src/Soul_Lee.pdf";
 import { LOGO2 } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -45,13 +45,13 @@ const Navbar = () => {
         >
           <img src={LOGO2} alt='logo' className='w-24 h-24 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            FullStack Developer &nbsp;
-            {/* <span className='sm:block hidden'> | Portfolio</span> */}
+            Senior Software Engineer&nbsp;
+            <span className='sm:block hidden'> | Portfolio </span>
           </p>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row items-center gap-10">
-        <a href={resume} download="jeff_jiang.pdf">
+        <a href={resume} download="Soul_Lee.pdf">
             <button
               className={`${
                 active === Link.title ? "abhishek" : "abhishek-btn"
@@ -99,7 +99,7 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-            <a href={resume} download="jeff_jiang.pdf">
+            <a href={resume} download="Soul_Lee.pdf">
             <button
               className={`${
                 active === Link.title ? "abhishek" : "abhishek-btn"

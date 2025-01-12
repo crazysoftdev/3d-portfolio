@@ -45,9 +45,8 @@ import {
   matrixai,
   zapflow,
   notable,
-
-
 } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -163,11 +162,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Hack Reactor",
+    title: "Senior Software Engineer",
+    company_name: "Walmart",
     icon: code1,
     iconBg: "#E6DEDD",
-    date: "2021",
+    date: "2023",
     points: [
       "Successfully led a team of engineers in the development and deployment of a high-performance API web application within a tight six-week timeframe.",
       "Designed and implemented a scalable backend service utilizing MongoDB and FastAPI, following a test-driven development approach, ensuring a stable and well-tested codebase.",
@@ -175,11 +174,23 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "ChiqueChickShop",
+    title: "Senior Software Engineer",
+    company_name: "Chewy",
+    icon: code1,
+    iconBg: "#E6DEDD",
+    date: "2020",
+    points: [
+      "Successfully led a team of engineers in the development and deployment of a high-performance API web application within a tight six-week timeframe.",
+      "Designed and implemented a scalable backend service utilizing MongoDB and FastAPI, following a test-driven development approach, ensuring a stable and well-tested codebase.",
+      "Implemented secure user authentication by integrating Simple JWT, ensuring secure access to sensitive user information and a seamless user experience.",
+    ],
+  },
+  {
+    title: "Full Stack Engineer",
+    company_name: "Insight Global",
     icon: code1,
     iconBg: "#383E56",
-    date: "2022",
+    date: "2017",
     points: [
       "Developed ChiqueChickShop, a responsive e-commerce platform.",
       "Enhanced user experience with intuitive navigation features.",
@@ -187,47 +198,23 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Developer",
-    company_name: "Madamcoon",
+    title: "Full Stack Developer",
+    company_name: "Amazon",
     icon: code1,
     iconBg: "#E6DEDD",
-    date: "2023",
+    date: "2016",
     points: [
       "Spearheaded the revamp of Madamcoon, focusing on responsive design and user experience improvements.",
       "Integrated CMS and implemented SEO strategies for enhanced online visibility.",
       "Optimized the website for increased engagement and performance metrics.",
     ],
   },
-  // {
-  //   title: "Fulstack Developer",
-  //   company_name: "YOUTUBE CLONE",
-  //   icon: code1,
-  //   iconBg: "#383E56",
-  //   date: "2023",
-  //   points: [
-  //     "Developed a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app.",
-  //     "Used RAPID API to access various endpoints to retrieve data such as suggested videos, search video details, channel details, and channel videos.",
-  //     "Ensured cross-browser and cross-platform compatibility.",
-  //   ],
-  // },
-  // {
-  //   title: "Fullstack Developer",
-  //   company_name: "MOVIE APP",
-  //   icon: code1,
-  //   iconBg: "#E6DEDD",
-  //   date: "2023",
-  //   points: [
-  //     "Developed and maintained an application using React.js, Material UI, Alan AI and other related technologies.",
-  //     "Enhanced user experience by implementing secure user authentication, providing a sleek dark mode option, and allowing users to sort movies by categories or genres. Users can now access movie and actor details and easily add movies to their favorites or watchlist, in addition to other convenient functionalities.",
-  //     "Integrated voice assistant to application.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I can't say enough good things about Jeff. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, Jeff is your guy.",
+      "I can't say enough good things about James. He's a true team player who always puts the needs of the project first. If you're looking for a software engineer who can deliver results, James is your guy.",
     name: "Halley Bennett",
     designation: "",
     company: "Hack Reactor",
@@ -235,7 +222,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Jeff is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
+      "James is an incredible problem solver. Whenever we ran into a roadblock on our project, he was always able to come up with creative solutions that kept us moving forward.",
     name: "Yishak Wesego",
     designation: "",
     company: "Hack Reactor",
@@ -243,7 +230,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've worked with a lot of engineers over the years, and Jeff is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
+      "I've worked with a lot of engineers over the years, and James is one of the best. His technical skills are top-notch, but what really sets him apart is his ability to communicate complex ideas in a way that everyone on the team can understand.",
     name: "Megan Stewart",
     designation: "",
     company: "Hack Reactor",
@@ -371,7 +358,7 @@ const projects = [
       },
     ],
     image: smartrep,
-    source_code_link: "https://github.com/jeffjiang13/smartrep-ai",
+    source_code_link: "https://github.com/crazysoftdev/smartrep-ai",
     liveUrl: "https://jj-smartrep.vercel.app/",
   },
   {
@@ -393,7 +380,7 @@ const projects = [
       },
     ],
     image: notable,
-    source_code_link: "https://github.com/jeffjiang13/notable",
+    source_code_link: "https://github.com/crazysoftdev/notable",
     liveUrl: "https://jj-notable.up.railway.app/",
   },
   {
@@ -415,7 +402,7 @@ const projects = [
       },
     ],
     image: zapflow,
-    source_code_link: "https://github.com/jeffjiang13/saas-automation",
+    source_code_link: "https://github.com/crazysoftdev/saas-automation",
     liveUrl: "https://jj-zapflow.vercel.app/",
   },
   {
@@ -437,31 +424,31 @@ const projects = [
       },
     ],
     image: beeclone,
-    source_code_link: "https://github.com/jeffjiang13/saas-newsletter",
+    source_code_link: "https://github.com/crazysoftdev/saas-newsletter",
     liveUrl: "https://jj-newsletter.vercel.app/",
   },
-  {
-    name: "Matrix AI",
-    description:
-      "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: matrixai,
-    source_code_link: "https://github.com/jeffjiang13/MatrixAI",
-    liveUrl: "https://jj-matrix-ai.vercel.app/",
-  },
+  // {
+  //   name: "Matrix AI",
+  //   description:
+  //     "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Prisma",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: matrixai,
+  //   source_code_link: "https://github.com/crazysoftdev/MatrixAI",
+  //   liveUrl: "https://jj-matrix-ai.vercel.app/",
+  // },
   {
     name: "LinkTri",
     description:
@@ -481,31 +468,31 @@ const projects = [
       },
     ],
     image: linktree,
-    source_code_link: "https://github.com/jeffjiang13/LinkTree",
+    source_code_link: "https://github.com/crazysoftdev/LinkTree",
     liveUrl: "https://jj-linktri.vercel.app/",
   },
-  {
-    name: "Instagram Clone,",
-    description:
-      "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
-    tags: [
-      {
-        name: "Vite.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ig,
-    source_code_link: "https://github.com/jeffjiang13/IG-2.0",
-    liveUrl: "https://jj-ig.netlify.app/",
-  },
+  // {
+  //   name: "Instagram Clone,",
+  //   description:
+  //     "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
+  //   tags: [
+  //     {
+  //       name: "Vite.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "React.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ig,
+  //   source_code_link: "https://github.com/crazysoftdev/IG-2.0",
+  //   liveUrl: "https://jj-ig.netlify.app/",
+  // },
   {
     name: "TikTok Clone",
     description:
@@ -525,7 +512,7 @@ const projects = [
       },
     ],
     image: tiktok,
-    source_code_link: "https://github.com/jeffjiang13/tiktok",
+    source_code_link: "https://github.com/crazysoftdev/tiktok",
     liveUrl: "https://jj-tiktok.vercel.app/",
   },
   {
@@ -547,7 +534,7 @@ const projects = [
       },
     ],
     image: portfolio17,
-    source_code_link: "https://github.com/jeffjiang13/tailortech",
+    source_code_link: "https://github.com/crazysoftdev/tailortech",
     liveUrl: "https://jj-tailortech.vercel.app/",
   },
   {
@@ -569,7 +556,7 @@ const projects = [
       },
     ],
     image: portfolio16,
-    source_code_link: "https://github.com/jeffjiang13",
+    source_code_link: "https://github.com/crazysoftdev",
     liveUrl: "https://chiquechickshop.com/",
   },
   {
@@ -591,7 +578,7 @@ const projects = [
       },
     ],
     image: portfolio15,
-    source_code_link: "https://github.com/jeffjiang13",
+    source_code_link: "https://github.com/crazysoftdev",
     liveUrl: "https://madamcoon.com/",
   },
   {
@@ -613,7 +600,7 @@ const projects = [
       },
     ],
     image: movie,
-    source_code_link: "https://github.com/jeffjiang13/movie-app",
+    source_code_link: "https://github.com/crazysoftdev/movie-app",
     liveUrl: "https://jj-movie-app.netlify.app/",
   },
   {
@@ -635,7 +622,7 @@ const projects = [
       },
     ],
     image: shop,
-    source_code_link: "https://github.com/jeffjiang13/ecommerce_sanity",
+    source_code_link: "https://github.com/crazysoftdev/ecommerce_sanity",
     liveUrl: "https://jj-ecomstore.vercel.app/",
   },
   {
@@ -657,7 +644,7 @@ const projects = [
       },
     ],
     image: youtube,
-    source_code_link: "https://github.com/jeffjiang13/youtube-clone",
+    source_code_link: "https://github.com/crazysoftdev/youtube-clone",
     liveUrl: "https://jj-youtube-clone.netlify.app/",
   },
 ];
