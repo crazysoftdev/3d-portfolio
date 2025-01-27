@@ -16,10 +16,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  walmart,
+  amazon,
+  chewy,
+  insight_global,
   carrent,
   jobit,
   tripguide,
@@ -174,7 +174,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Walmart",
-    icon: code1,
+    icon: walmart,
     iconBg: "#E6DEDD",
     date: "2023",
     points: [
@@ -186,7 +186,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Chewy",
-    icon: code1,
+    icon: chewy,
     iconBg: "#E6DEDD",
     date: "2020",
     points: [
@@ -198,7 +198,7 @@ const experiences = [
   {
     title: "Full Stack Engineer",
     company_name: "Insight Global",
-    icon: code1,
+    icon: insight_global,
     iconBg: "#383E56",
     date: "2017",
     points: [
@@ -210,7 +210,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Amazon",
-    icon: code1,
+    icon: amazon,
     iconBg: "#E6DEDD",
     date: "2016",
     points: [
@@ -278,48 +278,34 @@ const imageProjects = [
   },
   {
     id: 5,
-    image: movie,
-    url: "https://jj-movie-app.netlify.app/",
-    title: "Movie app",
-    description: "",
-  },
-  {
-    id: 6,
-    image: youtube,
-    url: "https://jj-youtube-clone.netlify.app/",
-    title: "Youtube clone",
-    description: "",
-  },
-  {
-    id: 9,
     image: linktree,
     url: "https://jj-linktri.vercel.app/",
     title: "LinkTree clone",
     description: "",
   },
   {
-    id: 10,
+    id: 6,
     image: smartrep,
     url: "https://jj-smartrep.vercel.app/",
     title: "SmartRep AI",
     description: "",
   },
   {
-    id: 11,
+    id: 7,
     image: zapflow,
     url: "https://jj-zapflow.vercel.app/",
     title: "ZapFlow",
     description: "",
   },
   {
-    id: 13,
+    id: 8,
     image: notable,
     url: "https://jj-notable.up.railway.app/",
     title: "Notable",
     description: "",
   },
   {
-    id: 14,
+    id: 9,
     image: beeclone,
     url: "https://jj-newsletter.vercel.app/",
     title: "Beeclone",

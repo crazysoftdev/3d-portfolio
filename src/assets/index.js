@@ -24,10 +24,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import walmart from "./company/walmart.png";
+import insight_global from "./company/insight_global.png";
+import amazon from "./company/amazon.png";
+import chewy from "./company/chewy.png";
 import django from "./tech/django.png";
 import postgres from "./tech/postgres.png";
 import sql from "./tech/sql.svg";
@@ -78,10 +78,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  walmart,
+  insight_global,
+  amazon,
+  chewy,
   carrent,
   jobit,
   tripguide,
