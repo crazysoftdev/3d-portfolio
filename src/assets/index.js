@@ -17,10 +17,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
+import java from "./tech/java.png";
 import python from "./tech/python.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -71,6 +73,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  angular,
   redux,
   tailwind,
   typescript,
@@ -87,6 +90,7 @@ export {
   shop,
   youtube,
   james,
+  java,
   python,
   django,
   postgres,

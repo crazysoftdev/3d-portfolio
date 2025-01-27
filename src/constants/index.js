@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  angular,
   redux,
   tailwind,
   nodejs,
@@ -27,6 +28,7 @@ import {
   movie,
   shop,
   youtube,
+  java,
   python,
   django,
   postgres,
@@ -103,14 +105,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -119,20 +113,36 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "angular",
+    icon: angular,
+  },
+  {
+    name: "vue",
+    icon: vue,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
     name: "python",
     icon: python,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
   {
     name: "django",
@@ -147,16 +157,16 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "threejs",
-    icon: threejs,
+    name: "figma",
+    icon: figma,
   },
   {
-    name: "next",
-    icon: next,
+    name: "docker",
+    icon: docker,
   },
   {
-    name: "vue",
-    icon: vue,
+    name: "git",
+    icon: git,
   },
 ];
 
@@ -168,9 +178,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2023",
     points: [
-      "Successfully led a team of engineers in the development and deployment of a high-performance API web application within a tight six-week timeframe.",
-      "Designed and implemented a scalable backend service utilizing MongoDB and FastAPI, following a test-driven development approach, ensuring a stable and well-tested codebase.",
-      "Implemented secure user authentication by integrating Simple JWT, ensuring secure access to sensitive user information and a seamless user experience.",
+      "Developed and maintained the Walmart Store Recommendation Feature using React, TypeScript, Tailwind CSS, Node.js, Express.js, and MongoDB, enhancing online sales through affiliate links.",
+      "Contributed to the Generative AI-Powered Search project using React, React Native, Node.js, Python, and Azure OpenAI Service, which enhanced the digital shopping experience.",
+      "Contributed to the My Assistant mobile application using Swift (iOS), Kotlin (Android), Java, Spring Boot, and integrating large language model, which deployed to over 50,000 Walmart associates.",
     ],
   },
   {
@@ -180,9 +190,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2020",
     points: [
-      "Successfully led a team of engineers in the development and deployment of a high-performance API web application within a tight six-week timeframe.",
-      "Designed and implemented a scalable backend service utilizing MongoDB and FastAPI, following a test-driven development approach, ensuring a stable and well-tested codebase.",
-      "Implemented secure user authentication by integrating Simple JWT, ensuring secure access to sensitive user information and a seamless user experience.",
+      "Contributed to the Chewy Personalized Nutrition Advisor using React, React Native, Python, Flask, TensorFlow, and PostgreSQL, which boosted sales of pet food by 25%.",
+      "Contributed to the Chewy Pet Care & Pharmacy mobile app using React Native (iOS and Android), Flutter, Swift, Kotlin, and PostgreSQL.",
+      "Contributed to the Chewy Community Forums using Angular, Material UI, Java, Spring Boot, and MySQL, which attracted 1 million active users.",
     ],
   },
   {
@@ -192,9 +202,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "2017",
     points: [
-      "Developed ChiqueChickShop, a responsive e-commerce platform.",
-      "Enhanced user experience with intuitive navigation features.",
-      "Implemented secure payment processing for online transactions.",
+      "Led the full-stack development of the Lifetouch mobile app using React Native, Python, PostgreSQL, FastAPI, and Tailwind CSS, integrated AI-powered recommendation features with TensorFlow.js, enhancing user engagement and personalization. (Home Depot)",
+      "Diagnosed and resolved system discrepancies efficiently, ensuring seamless operations by leveraging modern technologies such as MongoDB and Node.js for back-end support. (BlueScope Steel)",
+      "Contributed to the frontend development of a collaboration app using Electron, React, Redux-Saga, ES6+, WebRTC, and WebSockets, implementing features like real-time chat, video conferencing, screencasting, and a team calendar, which improved team communi-cation and productivity. (Shyftmoving)",
     ],
   },
   {
@@ -204,9 +214,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2016",
     points: [
-      "Spearheaded the revamp of Madamcoon, focusing on responsive design and user experience improvements.",
-      "Integrated CMS and implemented SEO strategies for enhanced online visibility.",
-      "Optimized the website for increased engagement and performance metrics.",
+      "Modernized and enhanced the Amazon Order Management System, improving order processing, inventory tracking, and customer communications.",
+      "Created dynamic and responsive user interfaces using TypeScript, Angular, and Vue.js enhancing user experience for internal stakeholders with real-time data updates and optimized workflows.",
+      "Engineered RESTful and GraphQL APIs using Node.js and Java, integrating multiple services for order processing, inventory management, and shipment tracking.",
     ],
   },
 ];
@@ -281,20 +291,6 @@ const imageProjects = [
     description: "",
   },
   {
-    id: 7,
-    image: ig,
-    url: "https://jj-ig.netlify.app/",
-    title: "Instagram clone",
-    description: "",
-  },
-  {
-    id: 8,
-    image: tiktok,
-    url: "https://jj-tiktok.vercel.app/",
-    title: "TikTok clone",
-    description: "",
-  },
-  {
     id: 9,
     image: linktree,
     url: "https://jj-linktri.vercel.app/",
@@ -313,13 +309,6 @@ const imageProjects = [
     image: zapflow,
     url: "https://jj-zapflow.vercel.app/",
     title: "ZapFlow",
-    description: "",
-  },
-  {
-    id: 12,
-    image: matrixai,
-    url: "https://jj-matrix-ai.vercel.app/",
-    title: "Matrix AI",
     description: "",
   },
   {
@@ -427,28 +416,6 @@ const projects = [
     source_code_link: "https://github.com/crazysoftdev/saas-newsletter",
     liveUrl: "https://jj-newsletter.vercel.app/",
   },
-  // {
-  //   name: "Matrix AI",
-  //   description:
-  //     "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
-  //   tags: [
-  //     {
-  //       name: "Next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Prisma",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: matrixai,
-  //   source_code_link: "https://github.com/crazysoftdev/MatrixAI",
-  //   liveUrl: "https://jj-matrix-ai.vercel.app/",
-  // },
   {
     name: "LinkTri",
     description:
@@ -470,50 +437,6 @@ const projects = [
     image: linktree,
     source_code_link: "https://github.com/crazysoftdev/LinkTree",
     liveUrl: "https://jj-linktri.vercel.app/",
-  },
-  // {
-  //   name: "Instagram Clone,",
-  //   description:
-  //     "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
-  //   tags: [
-  //     {
-  //       name: "Vite.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "React.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ig,
-  //   source_code_link: "https://github.com/crazysoftdev/IG-2.0",
-  //   liveUrl: "https://jj-ig.netlify.app/",
-  // },
-  {
-    name: "TikTok Clone",
-    description:
-      "Explore the modern web with our TikTok Clone Application! This project encompasses a full suite of features including Google Authentication, video uploads, publishing, sharing, commenting, liking, category filtering, advanced search functionalities, profile pages, suggested accounts, and a custom responsive design.",
-    tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Sanity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tiktok,
-    source_code_link: "https://github.com/crazysoftdev/tiktok",
-    liveUrl: "https://jj-tiktok.vercel.app/",
   },
   {
     name: "TailorTech",
@@ -582,29 +505,7 @@ const projects = [
     liveUrl: "https://madamcoon.com/",
   },
   {
-    name: "Movie App",
-    description:
-      "This app is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple with help of a AI voice chatbot. Also provides ratings of movies. Tech stack: JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    source_code_link: "https://github.com/crazysoftdev/movie-app",
-    liveUrl: "https://jj-movie-app.netlify.app/",
-  },
-  {
-    name: "Ecommerce App",
+    name: "E-Commerce App",
     description:
       "Fully responsive, full-stack e-commerce application with payments. It includes advanced React and Next.js best practices, and integrates Stripe for payment processing. The content of the app can be managed using Sanity, which allows for dynamic modifications of the store's home page and product details. The app is mobile-responsive and includes features such as adding and editing products, advanced card functionalities, and a complete checkout process.",
     tags: [
@@ -624,28 +525,6 @@ const projects = [
     image: shop,
     source_code_link: "https://github.com/crazysoftdev/ecommerce_sanity",
     liveUrl: "https://jj-ecomstore.vercel.app/",
-  },
-  {
-    name: "YouTube Clone",
-    description:
-      "A responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app!",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RAPIDAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    source_code_link: "https://github.com/crazysoftdev/youtube-clone",
-    liveUrl: "https://jj-youtube-clone.netlify.app/",
   },
 ];
 
